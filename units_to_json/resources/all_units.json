@@ -1,0 +1,2002 @@
+[
+    {
+        "id": "c1a1824a-83a3-4f09-b64f-71d2cb38a7f9",
+        "name": "angle",
+        "standards": [
+            {
+                "id": "fbbb3657-4a85-45ee-bee8-121287d5f8b4",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "2cc246db-cd65-40ac-9fdd-fec18c8d121f",
+                        "name": "rad",
+                        "full_name": {
+                            "singular": "radian",
+                            "plural": "radians"
+                        },
+                        "to_anchor": "180/3.1415"
+                    },
+                    {
+                        "id": "b0286611-3a74-4199-9ea6-720d51331040",
+                        "name": "deg",
+                        "full_name": {
+                            "singular": "degree",
+                            "plural": "degrees"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "d6f8a795-420a-4a46-ac38-c59173b123e3",
+                        "name": "grad",
+                        "full_name": {
+                            "singular": "gradian",
+                            "plural": "gradians"
+                        },
+                        "to_anchor": "9/10"
+                    },
+                    {
+                        "id": "ff28e2d2-6bd5-46dd-9aa2-63075c6479fd",
+                        "name": "arcmin",
+                        "full_name": {
+                            "singular": "arcminute",
+                            "plural": "arcminutes"
+                        },
+                        "to_anchor": "1/60"
+                    },
+                    {
+                        "id": "be460a5f-0672-4970-a2b7-18f4ffba558d",
+                        "name": "arcsec",
+                        "full_name": {
+                            "singular": "arcsecond",
+                            "plural": "arcseconds"
+                        },
+                        "to_anchor": "1/3600"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "a789e851-210d-40fa-9c01-28e449ae124a",
+        "name": "apparentPower",
+        "standards": [
+            {
+                "id": "fbe83a6d-c411-455e-81ba-68d285ba45e4",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "803ceb9e-d971-4698-adb8-93a6c04cbcc1",
+                        "name": "VA",
+                        "full_name": {
+                            "singular": "Volt-Ampere",
+                            "plural": "Volt-Amperes"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "9f3e86cd-be41-4998-af88-223c42abaff6",
+                        "name": "mVA",
+                        "full_name": {
+                            "singular": "Millivolt-Ampere",
+                            "plural": "Millivolt-Amperes"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "e32d4c05-1de7-4d05-a6cf-729a330f9a09",
+                        "name": "kVA",
+                        "full_name": {
+                            "singular": "Kilovolt-Ampere",
+                            "plural": "Kilovolt-Amperes"
+                        },
+                        "to_anchor": "1000"
+                    },
+                    {
+                        "id": "b2c89aa1-1fdc-4e61-be2a-b15c2f2f716c",
+                        "name": "MVA",
+                        "full_name": {
+                            "singular": "Megavolt-Ampere",
+                            "plural": "Megavolt-Amperes"
+                        },
+                        "to_anchor": "1000000"
+                    },
+                    {
+                        "id": "ac316812-a758-47d0-ad8b-0e0779f9fa1e",
+                        "name": "GVA",
+                        "full_name": {
+                            "singular": "Gigavolt-Ampere",
+                            "plural": "Gigavolt-Amperes"
+                        },
+                        "to_anchor": "1000000000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "94afc1bc-4172-4e71-8f73-72091e965928",
+        "name": "area",
+        "standards": [
+            {
+                "id": "70817cc2-d046-47a0-82ae-276dc2489e2a",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "88bb1e20-3d40-45e5-b2da-d1ef0daa339f",
+                        "name": "mm2",
+                        "full_name": {
+                            "singular": "Square Millimeter",
+                            "plural": "Square Millimeters"
+                        },
+                        "to_anchor": "1/1000000"
+                    },
+                    {
+                        "id": "4ba4fcb7-dcf1-4efa-9e85-55856033971c",
+                        "name": "cm2",
+                        "full_name": {
+                            "singular": "Centimeter",
+                            "plural": "Centimeters"
+                        },
+                        "to_anchor": "1/10000"
+                    },
+                    {
+                        "id": "e6a7e25b-81ba-425c-9153-0a31cc76379e",
+                        "name": "m2",
+                        "full_name": {
+                            "singular": "Square Meter",
+                            "plural": "Square Meters"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "e2528b4d-3d75-4223-9a0b-c4037d8a3e0f",
+                        "name": "ha",
+                        "full_name": {
+                            "singular": "Hectare",
+                            "plural": "Hectares"
+                        },
+                        "to_anchor": 10000
+                    },
+                    {
+                        "id": "8f5f05ba-4e9e-4a27-929c-34ee195e79e5",
+                        "name": "km2",
+                        "full_name": {
+                            "singular": "Square Kilometer",
+                            "plural": "Square Kilometers"
+                        },
+                        "to_anchor": 1000000
+                    }
+                ]
+            },
+            {
+                "id": "d1a358e5-b992-4716-9bc4-fe0ac9c757c3",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "eabc9c9a-8c31-4c1a-9bfb-6bcf490a27bb",
+                        "name": "in2",
+                        "full_name": {
+                            "singular": "Square Inch",
+                            "plural": "Square Inches"
+                        },
+                        "to_anchor": "1/144"
+                    },
+                    {
+                        "id": "582725b3-ed66-4f88-bdf0-53c191f3fff9",
+                        "name": "yd2",
+                        "full_name": {
+                            "singular": "Square Yard",
+                            "plural": "Square Yards"
+                        },
+                        "to_anchor": 9
+                    },
+                    {
+                        "id": "3ca6f86f-fedc-4d59-a580-e2a68a457d07",
+                        "name": "ft2",
+                        "full_name": {
+                            "singular": "Square Foot",
+                            "plural": "Square Feet"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "39ecdc01-928b-4c07-9978-c621313487b4",
+                        "name": "ac",
+                        "full_name": {
+                            "singular": "Acre",
+                            "plural": "Acres"
+                        },
+                        "to_anchor": 43560
+                    },
+                    {
+                        "id": "506ad2e2-474e-4dc2-a54c-d3ccf477fd95",
+                        "name": "mi2",
+                        "full_name": {
+                            "singular": "Square Mile",
+                            "plural": "Square Miles"
+                        },
+                        "to_anchor": 27878400
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2355b41d-5ba1-40b4-85bd-abd1c9a1f91b",
+        "name": "current",
+        "standards": [
+            {
+                "id": "d932bfb5-9989-4e02-9b1d-b3f4e399e8e2",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "52a6a771-3b39-42b7-a981-6ba1d14c081e",
+                        "name": "A",
+                        "full_name": {
+                            "singular": "Ampere",
+                            "plural": "Amperes"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "5926bf16-e3ea-4f90-b343-1d20e1c05aab",
+                        "name": "mA",
+                        "full_name": {
+                            "singular": "Milliampere",
+                            "plural": "Milliamperes"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "098dd8cc-ac66-4d73-b827-b3278bfaa05b",
+                        "name": "kA",
+                        "full_name": {
+                            "singular": "Kiloampere",
+                            "plural": "Kiloamperes"
+                        },
+                        "to_anchor": "1000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "82603181-8be0-4461-aad2-b0e354ac0fb6",
+        "name": "digital",
+        "standards": [
+            {
+                "id": "d0292b09-dbbb-4867-988a-b4638f2e67d0",
+                "name": "bits",
+                "details": [
+                    {
+                        "id": "63b23505-7d18-4282-9177-ffc80e1d469f",
+                        "name": "b",
+                        "full_name": {
+                            "singular": "Bit",
+                            "plural": "Bits"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "673b8323-6822-4c25-a889-6c13b3bab9e7",
+                        "name": "Kb",
+                        "full_name": {
+                            "singular": "Kilobit",
+                            "plural": "Kilobits"
+                        },
+                        "to_anchor": 1024
+                    },
+                    {
+                        "id": "40c2541f-2b0c-4c20-8821-1f7d53e18d59",
+                        "name": "Mb",
+                        "full_name": {
+                            "singular": "Megabit",
+                            "plural": "Megabits"
+                        },
+                        "to_anchor": 1048576
+                    },
+                    {
+                        "id": "0511e090-3b8f-4df1-93e4-75799c8403bd",
+                        "name": "Gb",
+                        "full_name": {
+                            "singular": "Gigabit",
+                            "plural": "Gigabits"
+                        },
+                        "to_anchor": 1073741824
+                    },
+                    {
+                        "id": "366ca3a5-dd65-4b99-a060-0086a59d312e",
+                        "name": "Tb",
+                        "full_name": {
+                            "singular": "Terabit",
+                            "plural": "Terabits"
+                        },
+                        "to_anchor": 1099511627776
+                    }
+                ]
+            },
+            {
+                "id": "530843de-1d45-4db7-825b-9a004514eca4",
+                "name": "bytes",
+                "details": [
+                    {
+                        "id": "2803f6af-538e-4cca-ad21-562e385ba74f",
+                        "name": "B",
+                        "full_name": {
+                            "singular": "Byte",
+                            "plural": "Bytes"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "dfef92da-03ba-4dae-9a92-59b5566aea55",
+                        "name": "KB",
+                        "full_name": {
+                            "singular": "Kilobyte",
+                            "plural": "Kilobytes"
+                        },
+                        "to_anchor": 1024
+                    },
+                    {
+                        "id": "bb2631a0-ecb8-435a-acc2-634a9b25a8b7",
+                        "name": "MB",
+                        "full_name": {
+                            "singular": "Megabyte",
+                            "plural": "Megabytes"
+                        },
+                        "to_anchor": 1048576
+                    },
+                    {
+                        "id": "2ef60f33-279c-4a8b-8e16-f08c224e9de2",
+                        "name": "GB",
+                        "full_name": {
+                            "singular": "Gigabyte",
+                            "plural": "Gigabytes"
+                        },
+                        "to_anchor": 1073741824
+                    },
+                    {
+                        "id": "f71e5e75-b01e-4302-a208-c944a415bf21",
+                        "name": "TB",
+                        "full_name": {
+                            "singular": "Terabyte",
+                            "plural": "Terabytes"
+                        },
+                        "to_anchor": 1099511627776
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "fb6ed056-46e5-44c5-aad1-1816508abbd0",
+        "name": "each",
+        "standards": [
+            {
+                "id": "1a14a494-cb1e-4cf3-8076-c306fe161a61",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "4429b933-aced-49a6-b92f-3fd31e404e82",
+                        "name": "ea",
+                        "full_name": {
+                            "singular": "Each",
+                            "plural": "Each"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "115351bb-ddb3-4867-b067-f4b8752ca9cf",
+                        "name": "dz",
+                        "full_name": {
+                            "singular": "Dozen",
+                            "plural": "Dozens"
+                        },
+                        "to_anchor": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "70543c7c-4350-463d-9f7c-73b73cedc510",
+        "name": "energy",
+        "standards": [
+            {
+                "id": "7e6e22c7-50eb-4b7f-a887-8929cdd9c577",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "d49a1fdb-2bb9-4bd7-b3f4-c01d5c15906d",
+                        "name": "Wh",
+                        "full_name": {
+                            "singular": "Watt-hour",
+                            "plural": "Watt-hours"
+                        },
+                        "to_anchor": 3600
+                    },
+                    {
+                        "id": "0366702c-8b52-4c75-85ba-fba9929fa099",
+                        "name": "mWh",
+                        "full_name": {
+                            "singular": "Milliwatt-hour",
+                            "plural": "Milliwatt-hours"
+                        },
+                        "to_anchor": 3.6
+                    },
+                    {
+                        "id": "ac35efee-3d34-40aa-8ac4-e457d6d2027b",
+                        "name": "kWh",
+                        "full_name": {
+                            "singular": "Kilowatt-hour",
+                            "plural": "Kilowatt-hours"
+                        },
+                        "to_anchor": 3600000
+                    },
+                    {
+                        "id": "e13cdbed-af25-4a68-a812-841c4503d102",
+                        "name": "MWh",
+                        "full_name": {
+                            "singular": "Megawatt-hour",
+                            "plural": "Megawatt-hours"
+                        },
+                        "to_anchor": 3600000000
+                    },
+                    {
+                        "id": "077355dc-ba4f-4efb-a6e4-faab35bf125b",
+                        "name": "GWh",
+                        "full_name": {
+                            "singular": "Gigawatt-hour",
+                            "plural": "Gigawatt-hours"
+                        },
+                        "to_anchor": 3600000000000
+                    },
+                    {
+                        "id": "51b8a522-541d-4dfe-8fa7-9fbcb6db6ab0",
+                        "name": "J",
+                        "full_name": {
+                            "singular": "Joule",
+                            "plural": "Joules"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "7d010e4b-55f5-404d-9d56-b6f2c1ab1a9b",
+                        "name": "kJ",
+                        "full_name": {
+                            "singular": "Kilojoule",
+                            "plural": "Kilojoules"
+                        },
+                        "to_anchor": 1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d5c41e49-b8a7-472e-8fdb-c1365b13dc69",
+        "name": "frequency",
+        "standards": [
+            {
+                "id": "791a83a8-e366-4789-9f17-da15d2c91f1e",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "450d0e26-3ad6-40ea-b672-899f8ab64c53",
+                        "name": "mHz",
+                        "full_name": {
+                            "singular": "millihertz",
+                            "plural": "millihertz"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "27aded7e-ddaa-4b6d-99bf-c11b4dc004b8",
+                        "name": "Hz",
+                        "full_name": {
+                            "singular": "hertz",
+                            "plural": "hertz"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "5e9ed9e0-fc26-4b02-9b36-19396893a039",
+                        "name": "kHz",
+                        "full_name": {
+                            "singular": "kilohertz",
+                            "plural": "kilohertz"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "63eead2b-cfb2-490e-a0ca-feb32e6ba4f2",
+                        "name": "MHz",
+                        "full_name": {
+                            "singular": "megahertz",
+                            "plural": "megahertz"
+                        },
+                        "to_anchor": "1000 * 1000"
+                    },
+                    {
+                        "id": "bf6788cb-f9c5-47f9-bd09-4b19efe69959",
+                        "name": "GHz",
+                        "full_name": {
+                            "singular": "gigahertz",
+                            "plural": "gigahertz"
+                        },
+                        "to_anchor": "1000 * 1000 * 1000"
+                    },
+                    {
+                        "id": "6fd7fcf1-2a2c-42fc-bea3-7f0903b0d8c2",
+                        "name": "THz",
+                        "full_name": {
+                            "singular": "terahertz",
+                            "plural": "terahertz"
+                        },
+                        "to_anchor": "1000 * 1000 * 1000 * 1000"
+                    },
+                    {
+                        "id": "c071df79-9380-4d43-bac0-173a3dc0fc2e",
+                        "name": "rpm",
+                        "full_name": {
+                            "singular": "rotation per minute",
+                            "plural": "rotations per minute"
+                        },
+                        "to_anchor": "1/60"
+                    },
+                    {
+                        "id": "190f98c5-5fbd-4d39-950f-64c3cb09b2f4",
+                        "name": "deg/s",
+                        "full_name": {
+                            "singular": "degree per second",
+                            "plural": "degrees per second"
+                        },
+                        "to_anchor": "1/360"
+                    },
+                    {
+                        "id": "d7a06d54-2202-44c5-9e8f-43877b68420b",
+                        "name": "rad/s",
+                        "full_name": {
+                            "singular": "radian per second",
+                            "plural": "radians per second"
+                        },
+                        "to_anchor": "1/(3.1415 * 2)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3b1893a2-98f7-486f-b1db-f24891129178",
+        "name": "length",
+        "standards": [
+            {
+                "id": "bcabe194-4816-4a06-8ee1-5c7f326af996",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "95ac3845-79e5-4d86-88c7-ae0e67934b9f",
+                        "name": "mm",
+                        "full_name": {
+                            "singular": "Millimeter",
+                            "plural": "Millimeters"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "748dab4a-20c6-4cf3-ac6d-f094a08bc6b0",
+                        "name": "cm",
+                        "full_name": {
+                            "singular": "Centimeter",
+                            "plural": "Centimeters"
+                        },
+                        "to_anchor": "1/100"
+                    },
+                    {
+                        "id": "1dd2d103-5eae-4df2-944d-c938e48a208e",
+                        "name": "m",
+                        "full_name": {
+                            "singular": "Meter",
+                            "plural": "Meters"
+                        },
+                        "to_anchor": 1
+                    },
+                    {
+                        "id": "dfc900b3-627a-480d-b11c-befbcacebad0",
+                        "name": "km",
+                        "full_name": {
+                            "singular": "Kilometer",
+                            "plural": "Kilometers"
+                        },
+                        "to_anchor": 1000
+                    }
+                ]
+            },
+            {
+                "id": "c7e3b67d-8156-40a7-892b-e0de717ff74a",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "2eb07300-e1e9-4a2e-b3a0-2fe1162aeca3",
+                        "name": "in",
+                        "full_name": {
+                            "singular": "Inch",
+                            "plural": "Inches"
+                        },
+                        "to_anchor": "1/12"
+                    },
+                    {
+                        "id": "526e05b3-4d32-4944-9c85-4e7eee491614",
+                        "name": "yd",
+                        "full_name": {
+                            "singular": "Yard",
+                            "plural": "Yards"
+                        },
+                        "to_anchor": 3
+                    },
+                    {
+                        "id": "5bb7aca9-cfc0-4e45-bd0b-8432c2e30e09",
+                        "name": "ft-us",
+                        "full_name": {
+                            "singular": "US Survey Foot",
+                            "plural": "US Survey Feet"
+                        },
+                        "to_anchor": 1.000002
+                    },
+                    {
+                        "id": "3ff4d09c-59c9-44e5-a6c8-59bacb25cc4f",
+                        "name": "ft",
+                        "full_name": {
+                            "singular": "Foot",
+                            "plural": "Feet"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "b928f712-7ae4-44f8-887f-72192731a25c",
+                        "name": "mi",
+                        "full_name": {
+                            "singular": "Mile",
+                            "plural": "Miles"
+                        },
+                        "to_anchor": 5280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "23596221-4b80-4c21-b62a-0db513a58fca",
+        "name": "mass",
+        "standards": [
+            {
+                "id": "84634b79-fbbb-4baf-a2df-3974c5daa107",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "425258f4-18ec-4910-abc0-499d8c3b16f4",
+                        "name": "mcg",
+                        "full_name": {
+                            "singular": "Microgram",
+                            "plural": "Micrograms"
+                        },
+                        "to_anchor": "1/1000000"
+                    },
+                    {
+                        "id": "b7851c87-fd6d-4071-9834-e322c04fae74",
+                        "name": "mg",
+                        "full_name": {
+                            "singular": "Milligram",
+                            "plural": "Milligrams"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "945ddc8a-a2fe-4faf-9896-45182c58f82b",
+                        "name": "g",
+                        "full_name": {
+                            "singular": "Gram",
+                            "plural": "Grams"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "a0232e92-c54f-4ad2-8fac-c391ccc523af",
+                        "name": "kg",
+                        "full_name": {
+                            "singular": "Kilogram",
+                            "plural": "Kilograms"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "041e1e76-6e09-4f23-b563-1873442e50a5",
+                        "name": "mt",
+                        "full_name": {
+                            "singular": "Metric Tonne",
+                            "plural": "Metric Tonnes"
+                        },
+                        "to_anchor": 1000000
+                    }
+                ]
+            },
+            {
+                "id": "c2c87080-a6c4-45ce-adb0-5847d959fc23",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "1cf0040e-6d73-49f2-a61d-82b4f5b2dd7a",
+                        "name": "oz",
+                        "full_name": {
+                            "singular": "Ounce",
+                            "plural": "Ounces"
+                        },
+                        "to_anchor": "1/16"
+                    },
+                    {
+                        "id": "f5538f3b-2a84-4bc1-ab4d-88956bd8dff9",
+                        "name": "lb",
+                        "full_name": {
+                            "singular": "Pound",
+                            "plural": "Pounds"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "70d58c68-9649-49e5-9601-aaa8e87027af",
+                        "name": "t",
+                        "full_name": {
+                            "singular": "Ton",
+                            "plural": "Tons"
+                        },
+                        "to_anchor": 2000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d8d5ffea-377d-4e92-b86e-4ef3fa8370bd",
+        "name": "pace",
+        "standards": [
+            {
+                "id": "c1cd726d-c2f7-4232-8222-efd894e08574",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "e53f8d36-daba-4d49-9fbb-db975cda2213",
+                        "name": "min/km",
+                        "full_name": {
+                            "singular": "Minute per kilometre",
+                            "plural": "Minutes per kilometre"
+                        },
+                        "to_anchor": 0.06
+                    },
+                    {
+                        "id": "65843200-e960-4a19-a6ed-12409f7a4a9c",
+                        "name": "s/m",
+                        "full_name": {
+                            "singular": "Second per metre",
+                            "plural": "Seconds per metre"
+                        },
+                        "to_anchor": 1
+                    }
+                ]
+            },
+            {
+                "id": "1ba59ff6-3738-46e1-b75b-6e7472ca3911",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "4232ede1-f953-471d-9aee-f2b1e3e3d607",
+                        "name": "min/mi",
+                        "full_name": {
+                            "singular": "Minute per mile",
+                            "plural": "Minutes per mile"
+                        },
+                        "to_anchor": 0.0113636
+                    },
+                    {
+                        "id": "4a3a9b78-5bf2-4be9-92a1-db9b1d9c52be",
+                        "name": "s/ft",
+                        "full_name": {
+                            "singular": "Second per foot",
+                            "plural": "Seconds per foot"
+                        },
+                        "to_anchor": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e24eb67e-710b-4979-a80b-94fa3c3c243d",
+        "name": "partsPer",
+        "standards": [
+            {
+                "id": "2db448d7-1391-445d-addf-69abed522c74",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "6118fdcb-330d-48e5-b071-a5bc85218396",
+                        "name": "ppm",
+                        "full_name": {
+                            "singular": "Part-per Million",
+                            "plural": "Parts-per Million"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "738365b6-d854-43d7-aa20-1714f1241b9d",
+                        "name": "ppb",
+                        "full_name": {
+                            "singular": "Part-per Billion",
+                            "plural": "Parts-per Billion"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "b9506e18-ba32-4c1e-8379-3d9851287180",
+                        "name": "ppt",
+                        "full_name": {
+                            "singular": "Part-per Trillion",
+                            "plural": "Parts-per Trillion"
+                        },
+                        "to_anchor": ".000001"
+                    },
+                    {
+                        "id": "1d14cc27-5d2b-4177-a710-e0204cee32e6",
+                        "name": "ppq",
+                        "full_name": {
+                            "singular": "Part-per Quadrillion",
+                            "plural": "Parts-per Quadrillion"
+                        },
+                        "to_anchor": ".000000001"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "464adf24-d7be-4cef-9f15-68d4a8f0b6fb",
+        "name": "power",
+        "standards": [
+            {
+                "id": "ea6cedc6-414e-4c76-bd95-758bdd243708",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "44b27988-fc32-4514-ad36-ad4c0c1f62d2",
+                        "name": "W",
+                        "full_name": {
+                            "singular": "Watt",
+                            "plural": "Watts"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "4e7123fe-9a49-4c74-b967-e286af1f4fc6",
+                        "name": "mW",
+                        "full_name": {
+                            "singular": "Milliwatt",
+                            "plural": "Milliwatts"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "a26b0f84-5e3c-460d-986f-c9311673ca6c",
+                        "name": "kW",
+                        "full_name": {
+                            "singular": "Kilowatt",
+                            "plural": "Kilowatts"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "88c87a96-7c5a-46c1-80f2-044aa8602276",
+                        "name": "MW",
+                        "full_name": {
+                            "singular": "Megawatt",
+                            "plural": "Megawatts"
+                        },
+                        "to_anchor": 1000000
+                    },
+                    {
+                        "id": "180885f7-95d8-4b3e-8fcd-025fc40f36a3",
+                        "name": "GW",
+                        "full_name": {
+                            "singular": "Gigawatt",
+                            "plural": "Gigawatts"
+                        },
+                        "to_anchor": 1000000000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1958dd7-55d1-416b-8491-620357b7a18b",
+        "name": "pressure",
+        "standards": [
+            {
+                "id": "e98e5234-bc5d-4f03-9d07-d57c2edbe125",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "b239df09-ca43-49d7-98a6-2c613ba23933",
+                        "name": "Pa",
+                        "full_name": {
+                            "singular": "pascal",
+                            "plural": "pascals"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "fc1d69ad-e41d-4214-b1af-59ff3cf1d1aa",
+                        "name": "kPa",
+                        "full_name": {
+                            "singular": "kilopascal",
+                            "plural": "kilopascals"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "68f02d6e-9e5d-4812-a24d-aea67e81fcea",
+                        "name": "MPa",
+                        "full_name": {
+                            "singular": "megapascal",
+                            "plural": "megapascals"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "5389b91a-3364-4438-81da-5f9886243e05",
+                        "name": "hPa",
+                        "full_name": {
+                            "singular": "hectopascal",
+                            "plural": "hectopascals"
+                        },
+                        "to_anchor": "1/10"
+                    },
+                    {
+                        "id": "042287f4-d0ab-4a11-8e61-fbf800e80a20",
+                        "name": "bar",
+                        "full_name": {
+                            "singular": "bar",
+                            "plural": "bar"
+                        },
+                        "to_anchor": 100
+                    },
+                    {
+                        "id": "59ebf6ef-9fa5-497d-ae62-bbe1f6b53073",
+                        "name": "torr",
+                        "full_name": {
+                            "singular": "torr",
+                            "plural": "torr"
+                        },
+                        "to_anchor": "101325/760000"
+                    }
+                ]
+            },
+            {
+                "id": "2aef4482-f492-468d-a497-56af83133703",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "35417f93-02ba-4d26-82e9-a88f34922b18",
+                        "name": "psi",
+                        "full_name": {
+                            "singular": "pound per square inch",
+                            "plural": "pounds per square inch"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "a6755bda-546a-4bf7-868c-609fe29d033f",
+                        "name": "ksi",
+                        "full_name": {
+                            "singular": "kilopound per square inch",
+                            "plural": "kilopound per square inch"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "da5317c1-9b60-45ed-b585-d20a4182fae4",
+        "name": "reactiveEnergy",
+        "standards": [
+            {
+                "id": "5716aa9d-2d1c-4369-a684-c083d65051e4",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "cda119ac-9fd4-4a7e-9d56-bb2fff1db8ad",
+                        "name": "VARh",
+                        "full_name": {
+                            "singular": "Volt-Ampere Reactive Hour",
+                            "plural": "Volt-Amperes Reactive Hour"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "65517388-bba5-4d8a-a90e-745b4613990e",
+                        "name": "mVARh",
+                        "full_name": {
+                            "singular": "Millivolt-Ampere Reactive Hour",
+                            "plural": "Millivolt-Amperes Reactive Hour"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "248a3744-3af4-4b85-8d52-f30e802358b4",
+                        "name": "kVARh",
+                        "full_name": {
+                            "singular": "Kilovolt-Ampere Reactive Hour",
+                            "plural": "Kilovolt-Amperes Reactive Hour"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "b267afde-3492-4543-82d8-964c40be8d45",
+                        "name": "MVARh",
+                        "full_name": {
+                            "singular": "Megavolt-Ampere Reactive Hour",
+                            "plural": "Megavolt-Amperes Reactive Hour"
+                        },
+                        "to_anchor": 1000000
+                    },
+                    {
+                        "id": "18a79ca1-90f1-4cdd-acb4-c40284a0f3f4",
+                        "name": "GVARh",
+                        "full_name": {
+                            "singular": "Gigavolt-Ampere Reactive Hour",
+                            "plural": "Gigavolt-Amperes Reactive Hour"
+                        },
+                        "to_anchor": 1000000000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "93c98949-b812-4bce-b650-e521d7f5a2ed",
+        "name": "reactivePower",
+        "standards": [
+            {
+                "id": "96aef1fc-06c3-44e2-bf00-37db1ee10f7e",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "67d46a03-ad4f-4e85-bf8e-2ecdacd5b77e",
+                        "name": "VAR",
+                        "full_name": {
+                            "singular": "Volt-Ampere Reactive",
+                            "plural": "Volt-Amperes Reactive"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "61a14599-5635-492c-880c-1546ac06b3c2",
+                        "name": "mVAR",
+                        "full_name": {
+                            "singular": "Millivolt-Ampere Reactive",
+                            "plural": "Millivolt-Amperes Reactive"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "cca2cd60-f216-43ff-b010-7e12a70e5e16",
+                        "name": "kVAR",
+                        "full_name": {
+                            "singular": "Kilovolt-Ampere Reactive",
+                            "plural": "Kilovolt-Amperes Reactive"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "7fa18b0e-57ce-4ece-ab1d-031438dccb49",
+                        "name": "MVAR",
+                        "full_name": {
+                            "singular": "Megavolt-Ampere Reactive",
+                            "plural": "Megavolt-Amperes Reactive"
+                        },
+                        "to_anchor": 1000000
+                    },
+                    {
+                        "id": "6a8b209c-ac3f-4c70-b469-74d0e1a933f8",
+                        "name": "GVAR",
+                        "full_name": {
+                            "singular": "Gigavolt-Ampere Reactive",
+                            "plural": "Gigavolt-Amperes Reactive"
+                        },
+                        "to_anchor": 1000000000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10b7148f-9675-4476-acfa-a073139720c0",
+        "name": "speed",
+        "standards": [
+            {
+                "id": "506d7056-3d96-4553-82e9-d105245ad5d1",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "47e8f844-9725-438e-86e5-bb5e223127d8",
+                        "name": "m/s",
+                        "full_name": {
+                            "singular": "Metre per second",
+                            "plural": "Metres per second"
+                        },
+                        "to_anchor": 3.6
+                    },
+                    {
+                        "id": "8912a881-960a-439d-9829-e2caf04f1f9b",
+                        "name": "km/h",
+                        "full_name": {
+                            "singular": "Kilometre per hour",
+                            "plural": "Kilometres per hour"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    }
+                ]
+            },
+            {
+                "id": "7344ab31-6071-4937-9482-325c6c23e25b",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "4e8733b6-07a4-485c-961c-f37ace7e820f",
+                        "name": "m/h",
+                        "full_name": {
+                            "singular": "Mile per hour",
+                            "plural": "Miles per hour"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "2900a825-ce25-4509-8920-3c4dc2aba9be",
+                        "name": "knot",
+                        "full_name": {
+                            "singular": "Knot",
+                            "plural": "Knots"
+                        },
+                        "to_anchor": 1.150779
+                    },
+                    {
+                        "id": "cfc52627-258e-4978-822b-69e21191475f",
+                        "name": "ft/s",
+                        "full_name": {
+                            "singular": "Foot per second",
+                            "plural": "Feet per second"
+                        },
+                        "to_anchor": 0.681818
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "392cf988-2c05-4fa0-9378-d4e334653891",
+        "name": "temperature",
+        "standards": [
+            {
+                "id": "f108a831-ff52-4d0d-866b-e950361c764b",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "ef738d81-fa46-41fc-9edf-de6ec780eb46",
+                        "name": "C",
+                        "full_name": {
+                            "singular": "degree Celsius",
+                            "plural": "degrees Celsius"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "a76a9985-f159-4698-b2d5-17f1bef2f759",
+                        "name": "K",
+                        "full_name": {
+                            "singular": "degree Kelvin",
+                            "plural": "degrees Kelvin"
+                        },
+                        "to_anchor": 1
+                    }
+                ]
+            },
+            {
+                "id": "fbb51ca6-0f6c-42ae-bb56-970ecdaac640",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "a81f272c-20a0-4564-9af2-ffaae88b82c9",
+                        "name": "F",
+                        "full_name": {
+                            "singular": "degree Fahrenheit",
+                            "plural": "degrees Fahrenheit"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "c5bbc6e6-d3ac-4144-bb17-c729885c5535",
+                        "name": "R",
+                        "full_name": {
+                            "singular": "degree Rankine",
+                            "plural": "degrees Rankine"
+                        },
+                        "to_anchor": 1,
+                        "anchor_shift": 459.67
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bd435c80-7388-4bf7-9b3c-b60e8da1293e",
+        "name": "time",
+        "standards": [
+            {
+                "id": "6ba1c808-55ba-48db-8f6e-c5ec6b90e80c",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "74be08ce-1a2c-4f97-a1b0-338003b33205",
+                        "name": "ns",
+                        "full_name": {
+                            "singular": "Nanosecond",
+                            "plural": "Nanoseconds"
+                        },
+                        "to_anchor": "1/1000000000"
+                    },
+                    {
+                        "id": "3cb8274e-15bf-4b91-8a2c-85a988739cf3",
+                        "name": "mu",
+                        "full_name": {
+                            "singular": "Microsecond",
+                            "plural": "Microseconds"
+                        },
+                        "to_anchor": "1/1000000"
+                    },
+                    {
+                        "id": "d343a35e-49e2-46cc-a475-711008f1038b",
+                        "name": "ms",
+                        "full_name": {
+                            "singular": "Millisecond",
+                            "plural": "Milliseconds"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "5cee6fa5-0130-46dc-8e62-da405ac72530",
+                        "name": "s",
+                        "full_name": {
+                            "singular": "Second",
+                            "plural": "Seconds"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "cdd19f75-d279-48a2-b6fe-463ba22b9d73",
+                        "name": "min",
+                        "full_name": {
+                            "singular": "Minute",
+                            "plural": "Minutes"
+                        },
+                        "to_anchor": 60
+                    },
+                    {
+                        "id": "1bbc4be7-0f77-49a0-b4eb-7967cf4fce1c",
+                        "name": "h",
+                        "full_name": {
+                            "singular": "Hour",
+                            "plural": "Hours"
+                        },
+                        "to_anchor": "60 * 60"
+                    },
+                    {
+                        "id": "7a69ce3c-e2ea-4a18-8ddf-2944df4ab882",
+                        "name": "d",
+                        "full_name": {
+                            "singular": "Day",
+                            "plural": "Days"
+                        },
+                        "to_anchor": "60 * 60 * 24"
+                    },
+                    {
+                        "id": "3aa21ef4-7388-4628-80a3-e0ce13d7abbd",
+                        "name": "week",
+                        "full_name": {
+                            "singular": "Week",
+                            "plural": "Weeks"
+                        },
+                        "to_anchor": "60 * 60 * 24 * 7"
+                    },
+                    {
+                        "id": "43e4dca8-4b92-4313-81c3-9c1b3a39f80b",
+                        "name": "month",
+                        "full_name": {
+                            "singular": "Month",
+                            "plural": "Months"
+                        },
+                        "to_anchor": "60 * 60 * 24 * daysInYear / 12"
+                    },
+                    {
+                        "id": "34a3d496-f8a4-4875-ac5a-3e674133c33f",
+                        "name": "year",
+                        "full_name": {
+                            "singular": "Year",
+                            "plural": "Years"
+                        },
+                        "to_anchor": "60 * 60 * 24 * daysInYear"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dd1f24bb-8733-4919-82ae-a0cb1eebeb65",
+        "name": "voltage",
+        "standards": [
+            {
+                "id": "78c4428d-6c67-4b05-bc2e-c175737f4471",
+                "name": "default",
+                "details": [
+                    {
+                        "id": "d68547dc-0579-4175-8721-7e77540e0fc1",
+                        "name": "V",
+                        "full_name": {
+                            "singular": "Volt",
+                            "plural": "Volts"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "66da6f64-b43e-4052-8573-34be744266f3",
+                        "name": "mV",
+                        "full_name": {
+                            "singular": "Millivolt",
+                            "plural": "Millivolts"
+                        },
+                        "to_anchor": ".001"
+                    },
+                    {
+                        "id": "045209dc-d02c-4e3b-a139-31f539deabf5",
+                        "name": "kV",
+                        "full_name": {
+                            "singular": "Kilovolt",
+                            "plural": "Kilovolts"
+                        },
+                        "to_anchor": 1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "803d613e-d5d6-430a-b0bf-326cc602bd14",
+        "name": "volume",
+        "standards": [
+            {
+                "id": "6f5cf6dc-722b-4339-8f5f-19add4cdedbe",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "ca97e891-bdbb-4e1b-8546-1a204c4a5ab9",
+                        "name": "mm3",
+                        "full_name": {
+                            "singular": "Cubic Millimeter",
+                            "plural": "Cubic Millimeters"
+                        },
+                        "to_anchor": "1/1000000"
+                    },
+                    {
+                        "id": "02287c69-757d-460d-88a4-88ad8622b9f4",
+                        "name": "cm3",
+                        "full_name": {
+                            "singular": "Cubic Centimeter",
+                            "plural": "Cubic Centimeters"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "9dfc65ec-e1a2-491d-a9a9-92d19587b3f0",
+                        "name": "ml",
+                        "full_name": {
+                            "singular": "Millilitre",
+                            "plural": "Millilitres"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "202443ee-2601-421f-954b-9ddc2fe47d29",
+                        "name": "cl",
+                        "full_name": {
+                            "singular": "Centilitre",
+                            "plural": "Centilitres"
+                        },
+                        "to_anchor": "1/100"
+                    },
+                    {
+                        "id": "63670403-35cc-42cd-b7e9-09b7c9b5c1e2",
+                        "name": "dl",
+                        "full_name": {
+                            "singular": "Decilitre",
+                            "plural": "Decilitres"
+                        },
+                        "to_anchor": "1/10"
+                    },
+                    {
+                        "id": "be853a59-8470-4d40-b2ca-8494066eea5e",
+                        "name": "l",
+                        "full_name": {
+                            "singular": "Litre",
+                            "plural": "Litres"
+                        },
+                        "to_anchor": 1
+                    },
+                    {
+                        "id": "b9ab0afa-2cb8-4977-83e7-5f5812659d66",
+                        "name": "kl",
+                        "full_name": {
+                            "singular": "Kilolitre",
+                            "plural": "Kilolitres"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "efe7ea0f-23bb-4405-8bab-ae5fb5c9d498",
+                        "name": "m3",
+                        "full_name": {
+                            "singular": "Cubic meter",
+                            "plural": "Cubic meters"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "778d0f7d-e750-4d4f-9c16-a5205f237919",
+                        "name": "km3",
+                        "full_name": {
+                            "singular": "Cubic kilometer",
+                            "plural": "Cubic kilometers"
+                        },
+                        "to_anchor": 1000000000000
+                    },
+                    {
+                        "id": "fa680440-7429-4292-9acb-4610ea83db5d",
+                        "name": "krm",
+                        "full_name": {
+                            "singular": "Matsked",
+                            "plural": "Matskedar"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "6fb00816-8f20-49d2-9dd5-bca262894f1d",
+                        "name": "tsk",
+                        "full_name": {
+                            "singular": "Tesked",
+                            "plural": "Teskedar"
+                        },
+                        "to_anchor": "5/1000"
+                    },
+                    {
+                        "id": "29b854e8-5b83-4074-91bb-8bb325361bba",
+                        "name": "msk",
+                        "full_name": {
+                            "singular": "Matsked",
+                            "plural": "Matskedar"
+                        },
+                        "to_anchor": "15/1000"
+                    },
+                    {
+                        "id": "1aa293fd-8020-42fa-8ce8-891a9374866f",
+                        "name": "kkp",
+                        "full_name": {
+                            "singular": "Kaffekopp",
+                            "plural": "Kaffekoppar"
+                        },
+                        "to_anchor": "150/1000"
+                    },
+                    {
+                        "id": "ecf68d90-e73a-478a-b0b7-d08bd16ffa3e",
+                        "name": "glas",
+                        "full_name": {
+                            "singular": "Glas",
+                            "plural": "Glas"
+                        },
+                        "to_anchor": "200/1000"
+                    },
+                    {
+                        "id": "21a628a4-43cf-4153-a7db-10e24930d7e0",
+                        "name": "kanna",
+                        "full_name": {
+                            "singular": "Kanna",
+                            "plural": "Kannor"
+                        },
+                        "to_anchor": "2.617"
+                    }
+                ]
+            },
+            {
+                "id": "f5bb2d2a-5870-479a-b919-0a46a47f63c0",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "dbe00ab4-1ca7-4039-9aed-d1ff9e11de4a",
+                        "name": "tsp",
+                        "full_name": {
+                            "singular": "Teaspoon",
+                            "plural": "Teaspoons"
+                        },
+                        "to_anchor": "1/6"
+                    },
+                    {
+                        "id": "67270168-9f8a-4bc0-bc05-c0ff691706ab",
+                        "name": "Tbs",
+                        "full_name": {
+                            "singular": "Tablespoon",
+                            "plural": "Tablespoons"
+                        },
+                        "to_anchor": "1/2"
+                    },
+                    {
+                        "id": "4fe3e76c-e128-4428-b79e-d4219e89a9f9",
+                        "name": "in3",
+                        "full_name": {
+                            "singular": "Cubic inch",
+                            "plural": "Cubic inches"
+                        },
+                        "to_anchor": "0.55411"
+                    },
+                    {
+                        "id": "9b2cf496-e3e0-48ec-a911-7cb4dd65f43b",
+                        "name": "fl-oz",
+                        "full_name": {
+                            "singular": "Fluid Ounce",
+                            "plural": "Fluid Ounces"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "818ad218-535a-41e1-a697-231fba47e76c",
+                        "name": "cup",
+                        "full_name": {
+                            "singular": "Cup",
+                            "plural": "Cups"
+                        },
+                        "to_anchor": 8
+                    },
+                    {
+                        "id": "b32cd821-6ae3-45d8-aec3-c4daf02f4982",
+                        "name": "pnt",
+                        "full_name": {
+                            "singular": "Pint",
+                            "plural": "Pints"
+                        },
+                        "to_anchor": 16
+                    },
+                    {
+                        "id": "9bfeb81a-85b7-4e7c-8b02-edb33e9c6af3",
+                        "name": "qt",
+                        "full_name": {
+                            "singular": "Quart",
+                            "plural": "Quarts"
+                        },
+                        "to_anchor": 32
+                    },
+                    {
+                        "id": "fb2c9e3f-7d54-4e55-a499-da5a99106f42",
+                        "name": "gal",
+                        "full_name": {
+                            "singular": "Gallon",
+                            "plural": "Gallons"
+                        },
+                        "to_anchor": 128
+                    },
+                    {
+                        "id": "d2a920a5-b6fe-4032-9e6c-a0adac486cb8",
+                        "name": "ft3",
+                        "full_name": {
+                            "singular": "Cubic foot",
+                            "plural": "Cubic feet"
+                        },
+                        "to_anchor": "957.506"
+                    },
+                    {
+                        "id": "57937926-9609-4d3a-a3a2-eda69efc2c3f",
+                        "name": "yd3",
+                        "full_name": {
+                            "singular": "Cubic yard",
+                            "plural": "Cubic yards"
+                        },
+                        "to_anchor": 25852.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f090118d-6c22-4128-892a-3ebd91c30355",
+        "name": "volumeFlowRate",
+        "standards": [
+            {
+                "id": "0f50ad9c-b1bb-4405-a260-f2052569e0a7",
+                "name": "metric",
+                "details": [
+                    {
+                        "id": "cdc04eb4-2d23-4c9e-9ea1-2a25a568094f",
+                        "name": "mm3/s",
+                        "full_name": {
+                            "singular": "Cubic Millimeter per second",
+                            "plural": "Cubic Millimeters per second"
+                        },
+                        "to_anchor": "1/1000000"
+                    },
+                    {
+                        "id": "22cc73f0-dda2-400e-911f-baaacf486230",
+                        "name": "cm3/s",
+                        "full_name": {
+                            "singular": "Cubic Centimeter per second",
+                            "plural": "Cubic Centimeters per second"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "2e7a668d-d4e7-4b88-908c-eac400608e85",
+                        "name": "ml/s",
+                        "full_name": {
+                            "singular": "Millilitre per second",
+                            "plural": "Millilitres per second"
+                        },
+                        "to_anchor": "1/1000"
+                    },
+                    {
+                        "id": "c1fa7938-a4fe-45e4-ac06-34f3202728ec",
+                        "name": "cl/s",
+                        "full_name": {
+                            "singular": "Centilitre per second",
+                            "plural": "Centilitres per second"
+                        },
+                        "to_anchor": "1/100"
+                    },
+                    {
+                        "id": "d11c8f6d-d5d0-417b-935e-9c85e876fc52",
+                        "name": "dl/s",
+                        "full_name": {
+                            "singular": "Decilitre per second",
+                            "plural": "Decilitres per second"
+                        },
+                        "to_anchor": "1/10"
+                    },
+                    {
+                        "id": "c3850030-94fc-4341-ba03-3dfaa96d5399",
+                        "name": "l/s",
+                        "full_name": {
+                            "singular": "Litre per second",
+                            "plural": "Litres per second"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "6fb53c24-d372-4522-8705-2e8466708a7e",
+                        "name": "l/min",
+                        "full_name": {
+                            "singular": "Litre per minute",
+                            "plural": "Litres per minute"
+                        },
+                        "to_anchor": "1/60"
+                    },
+                    {
+                        "id": "a2cf6e84-8914-4034-a864-dfefac793f63",
+                        "name": "l/h",
+                        "full_name": {
+                            "singular": "Litre per hour",
+                            "plural": "Litres per hour"
+                        },
+                        "to_anchor": "1/3600"
+                    },
+                    {
+                        "id": "494de3ec-b963-4461-b462-5f0901b00517",
+                        "name": "kl/s",
+                        "full_name": {
+                            "singular": "Kilolitre per second",
+                            "plural": "Kilolitres per second"
+                        },
+                        "to_anchor": 1000
+                    },
+                    {
+                        "id": "befe8271-ea1b-4dba-bdf3-4ce745ded345",
+                        "name": "kl/min",
+                        "full_name": {
+                            "singular": "Kilolitre per minute",
+                            "plural": "Kilolitres per minute"
+                        },
+                        "to_anchor": "50/3"
+                    },
+                    {
+                        "id": "1cd2be7b-6ed7-4b1e-8050-2be70d0db20b",
+                        "name": "kl/h",
+                        "full_name": {
+                            "singular": "Kilolitre per hour",
+                            "plural": "Kilolitres per hour"
+                        },
+                        "to_anchor": "5/18"
+                    },
+                    {
+                        "id": "be63b3d9-f560-4680-819d-0c74824cf0b0",
+                        "name": "m3/s",
+                        "full_name": {
+                            "singular": "Cubic meter per second",
+                            "plural": "Cubic meters per second"
+                        },
+                        "to_anchor": "1000"
+                    },
+                    {
+                        "id": "59ab5e2a-6cdd-4812-a4e2-d11ab495678e",
+                        "name": "m3/min",
+                        "full_name": {
+                            "singular": "Cubic meter per minute",
+                            "plural": "Cubic meters per minute"
+                        },
+                        "to_anchor": "50/3"
+                    },
+                    {
+                        "id": "16dd49f5-9ea4-4c14-b61a-387b7e34df55",
+                        "name": "m3/h",
+                        "full_name": {
+                            "singular": "Cubic meter per hour",
+                            "plural": "Cubic meters per hour"
+                        },
+                        "to_anchor": "5/18"
+                    },
+                    {
+                        "id": "0d1edbf3-b3dc-49cc-8ac3-1fd4fbe4deec",
+                        "name": "km3/s",
+                        "full_name": {
+                            "singular": "Cubic kilometer per second",
+                            "plural": "Cubic kilometers per second"
+                        },
+                        "to_anchor": "1000000000000"
+                    }
+                ]
+            },
+            {
+                "id": "1522b279-fc8b-4858-8cb8-0b2077718bf2",
+                "name": "imperial",
+                "details": [
+                    {
+                        "id": "73c11c40-f6e7-4b18-867a-37a9cbd83395",
+                        "name": "tsp/s",
+                        "full_name": {
+                            "singular": "Teaspoon per second",
+                            "plural": "Teaspoons per second"
+                        },
+                        "to_anchor": "1/6"
+                    },
+                    {
+                        "id": "ad351d6a-4a1b-454c-a3b9-c6a094a375be",
+                        "name": "Tbs/s",
+                        "full_name": {
+                            "singular": "Tablespoon per second",
+                            "plural": "Tablespoons per second"
+                        },
+                        "to_anchor": "1/2"
+                    },
+                    {
+                        "id": "f73803a6-2fdf-4ffe-b159-c4f685b7c46d",
+                        "name": "in3/s",
+                        "full_name": {
+                            "singular": "Cubic inch per second",
+                            "plural": "Cubic inches per second"
+                        },
+                        "to_anchor": "0.55411"
+                    },
+                    {
+                        "id": "039f680f-0549-4a5f-88e2-cda208f211c1",
+                        "name": "in3/min",
+                        "full_name": {
+                            "singular": "Cubic inch per minute",
+                            "plural": "Cubic inches per minute"
+                        },
+                        "to_anchor": "0.55411/60"
+                    },
+                    {
+                        "id": "ee45effd-25f4-4f18-8ae8-3a0ce68ca1f8",
+                        "name": "in3/h",
+                        "full_name": {
+                            "singular": "Cubic inch per hour",
+                            "plural": "Cubic inches per hour"
+                        },
+                        "to_anchor": "0.55411/3600"
+                    },
+                    {
+                        "id": "9e03d8ff-20d3-45cf-8c77-f026c5459c35",
+                        "name": "fl-oz/s",
+                        "full_name": {
+                            "singular": "Fluid Ounce per second",
+                            "plural": "Fluid Ounces per second"
+                        },
+                        "to_anchor": 1,
+                        "default": "true"
+                    },
+                    {
+                        "id": "cc69d1cb-26bb-4b92-bf9f-47a0e38c1ee8",
+                        "name": "fl-oz/min",
+                        "full_name": {
+                            "singular": "Fluid Ounce per minute",
+                            "plural": "Fluid Ounces per minute"
+                        },
+                        "to_anchor": "1/60"
+                    },
+                    {
+                        "id": "b10c19a6-7fdf-4aac-a762-680fca83f6d0",
+                        "name": "fl-oz/h",
+                        "full_name": {
+                            "singular": "Fluid Ounce per hour",
+                            "plural": "Fluid Ounces per hour"
+                        },
+                        "to_anchor": "1/3600"
+                    },
+                    {
+                        "id": "d1a8a676-2374-49a2-9412-9336a0027e82",
+                        "name": "cup/s",
+                        "full_name": {
+                            "singular": "Cup per second",
+                            "plural": "Cups per second"
+                        },
+                        "to_anchor": "8"
+                    },
+                    {
+                        "id": "313482a4-7cb2-4cf2-80ac-b187134ff813",
+                        "name": "pnt/s",
+                        "full_name": {
+                            "singular": "Pint per second",
+                            "plural": "Pints per second"
+                        },
+                        "to_anchor": 16
+                    },
+                    {
+                        "id": "0b6e5cc9-dcdc-481d-bf4c-960e42810d4c",
+                        "name": "pnt/min",
+                        "full_name": {
+                            "singular": "Pint per minute",
+                            "plural": "Pints per minute"
+                        },
+                        "to_anchor": "4/15"
+                    },
+                    {
+                        "id": "2c270dd3-6748-469c-90b4-161de4e6d428",
+                        "name": "pnt/h",
+                        "full_name": {
+                            "singular": "Pint per hour",
+                            "plural": "Pints per hour"
+                        },
+                        "to_anchor": "1/225"
+                    },
+                    {
+                        "id": "98e72b2d-cc0e-4233-8d1c-6fc9ded23e54",
+                        "name": "qt/s",
+                        "full_name": {
+                            "singular": "Quart per second",
+                            "plural": "Quarts per second"
+                        },
+                        "to_anchor": "32"
+                    },
+                    {
+                        "id": "02f4687a-fb05-408d-8bc6-b485d9d0e871",
+                        "name": "gal/s",
+                        "full_name": {
+                            "singular": "Gallon per second",
+                            "plural": "Gallons per second"
+                        },
+                        "to_anchor": 128
+                    },
+                    {
+                        "id": "19d1affa-375c-4a0a-93e2-09ba0c8de921",
+                        "name": "gal/min",
+                        "full_name": {
+                            "singular": "Gallon per minute",
+                            "plural": "Gallons per minute"
+                        },
+                        "to_anchor": "32/15"
+                    },
+                    {
+                        "id": "ffeff535-9103-42bc-a4dc-940884bb8e8e",
+                        "name": "gal/h",
+                        "full_name": {
+                            "singular": "Gallon per hour",
+                            "plural": "Gallons per hour"
+                        },
+                        "to_anchor": "8/225"
+                    },
+                    {
+                        "id": "cd9b2531-f7a7-4f76-8d30-d6d31815ac76",
+                        "name": "ft3/s",
+                        "full_name": {
+                            "singular": "Cubic foot per second",
+                            "plural": "Cubic feet per second"
+                        },
+                        "to_anchor": " 957.506"
+                    },
+                    {
+                        "id": "b39b7b99-e973-4ad9-98be-55ba81e83363",
+                        "name": "ft3/min",
+                        "full_name": {
+                            "singular": "Cubic foot per minute",
+                            "plural": "Cubic feet per minute"
+                        },
+                        "to_anchor": "957.506/60"
+                    },
+                    {
+                        "id": "319ac1b4-2466-4928-8d60-d181af29df19",
+                        "name": "ft3/h",
+                        "full_name": {
+                            "singular": "Cubic foot per hour",
+                            "plural": "Cubic feet per hour"
+                        },
+                        "to_anchor": "957.506/3600"
+                    },
+                    {
+                        "id": "e80d5aaa-598e-4370-9d12-1a56a82db245",
+                        "name": "yd3/s",
+                        "full_name": {
+                            "singular": "Cubic yard per second",
+                            "plural": "Cubic yards per second"
+                        },
+                        "to_anchor": 25852.7
+                    },
+                    {
+                        "id": "3e0bb7ed-75b5-40df-9dbb-bc9d7b1b68d2",
+                        "name": "yd3/min",
+                        "full_name": {
+                            "singular": "Cubic yard per minute",
+                            "plural": "Cubic yards per minute"
+                        },
+                        "to_anchor": "25852.7/60"
+                    },
+                    {
+                        "id": "067e6133-3396-46f0-b736-8f185bbef34e",
+                        "name": "yd3/h",
+                        "full_name": {
+                            "singular": "Cubic yard per hour",
+                            "plural": "Cubic yards per hour"
+                        },
+                        "to_anchor": "25852.7/3600"
+                    }
+                ]
+            }
+        ]
+    }
+]
