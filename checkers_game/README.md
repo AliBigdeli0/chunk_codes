@@ -1,5 +1,7 @@
  # Board Game Using SFML and C++ (Simple Checkers)
-This game is a simple two-player checkers game. Please note that read the assets licenses before starting the compilation and use of it. This game has been developed using the SFML library in C++. I have developed & tested this source code in Debian. 
+This game is a simple two-player checkers game. Please note that read the assets licenses before starting the compilation and use of it. This game has been developed using the SFML library in C++. I have developed & tested this source code in Debian.
+
+![game image](./assets/game.png)
 
 # Requirements
 
@@ -8,15 +10,15 @@ Before running the source code make sure that the SFML library is installed. You
 # Build
 
 
-To build this project run the following command on Linux or Mac: 
+To build this project run the following command on Linux or Mac:
 ```
 $ mkdir build
 $ cd build
-$ cmake .. 
+$ cmake ..
 ```
 
 # Run
-to run the project run the following command in the terminal: 
+to run the project run the following command in the terminal:
 ```
 $ make
 ```
